@@ -1,0 +1,146 @@
+{
+ "case": "case03",
+ "expected_codes": [
+  "HEIR_NOT_SELLER",
+  "INHERITANCE_UNREGISTERED",
+  "TABU_STALE"
+ ],
+ "docs": [
+  {
+   "file": "01_nesach_tabu.pdf",
+   "doc_type": "tabu",
+   "transcript": "",
+   "tabu": {
+    "issued_date": "21/10/2026",
+    "property": {
+     "gush": "10461",
+     "helka": "118",
+     "tat": "3",
+     "area": "71.30"
+    },
+    "attachments": [
+     {
+      "mark": "ג-3",
+      "desc": "גינה"
+     }
+    ],
+    "right_type": "ownership",
+    "lessor": null,
+    "lease_until": null,
+    "owners": [
+     {
+      "name": "אסתר כהן",
+      "id": "005218843",
+      "share": "בשלמות",
+      "quote": "אסתר כהן 005218843"
+     }
+    ],
+    "mortgages": [],
+    "warnings": [],
+    "liens": []
+   }
+  },
+  {
+   "file": "02_heskem_mecher.pdf",
+   "doc_type": "agreement",
+   "transcript": "",
+   "agreement": {
+    "signing_date": "25/11/2026",
+    "sellers": [
+     {
+      "name": "רונן כהן",
+      "id": "031245668"
+     },
+     {
+      "name": "דנה כהן-פרץ",
+      "id": "033871205"
+     }
+    ],
+    "buyers": [
+     {
+      "name": "אלי שושן",
+      "id": "301447120"
+     },
+     {
+      "name": "נטע שושן",
+      "id": "302558914"
+     }
+    ],
+    "property": {
+     "gush": "10461",
+     "helka": "118",
+     "tat": "3",
+     "area": "71.30"
+    },
+    "attachments": [
+     {
+      "mark": "ג-3",
+      "desc": "גינה"
+     }
+    ],
+    "ownership_claim": {
+     "text": "הדירה רשומה על שם המוכר בלשכת רישום המקרקעין על",
+     "claims_whole_by_listed_sellers": false,
+     "claims_equal_shares": false,
+     "claims_full_ownership_right": false
+    },
+    "heirs_listed": [
+     "רונן כהן",
+     "דנה כהן-פרץ",
+     "איתי כהן"
+    ],
+    "heirs_quote": "יורשיה הם ילדיה רונן כהן, דנה כהן-פרץ ואיתי כהן",
+    "declared_mortgages": [],
+    "declares_no_other_encumbrances": {
+     "value": false,
+     "quote": null
+    },
+    "declares_no_warnings": {
+     "value": true,
+     "except_buyers": false,
+     "quote": "לא נרשמו על הדירה הערות אזהרה"
+    },
+    "declares_no_liens_or_pledges": {
+     "value": true,
+     "quote": "לא נרשמו על הדירה או על זכויות המוכר בה עיקולים, שעבודים או משכונות"
+    },
+    "mentions_rmi_consent": false,
+    "price": "1,620,000",
+    "price_quote": "1,620,000",
+    "payments": [
+     {
+      "amount": "162,000",
+      "due": "במעמד חתימת ההסכם",
+      "to_lender": false,
+      "quote": "162,000"
+     },
+     {
+      "amount": "900,000",
+      "due": "עד יום 01/01/2027",
+      "to_lender": false,
+      "quote": "900,000"
+     },
+     {
+      "amount": "558,000",
+      "due": "במועד מסירת החזקה",
+      "to_lender": false,
+      "quote": "558,000"
+     }
+    ]
+   }
+  },
+  {
+   "file": "04_rasham_mashkonot.pdf",
+   "doc_type": "pledges",
+   "transcript": "",
+   "pledges": {
+    "search_date": "22/11/2026",
+    "searched_ids": [
+     "031245668",
+     "033871205"
+    ],
+    "items": []
+   }
+  }
+ ]
+}

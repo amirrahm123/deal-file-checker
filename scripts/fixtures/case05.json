@@ -1,0 +1,193 @@
+{
+ "case": "case05",
+ "expected_codes": [
+  "PROPERTY_ID",
+  "BORROWER_NAME",
+  "LETTER_BEFORE_PAYMENT"
+ ],
+ "docs": [
+  {
+   "file": "01_nesach_tabu.pdf",
+   "doc_type": "tabu",
+   "transcript": "",
+   "tabu": {
+    "issued_date": "27/11/2026",
+    "property": {
+     "gush": "10419",
+     "helka": "77",
+     "tat": "8",
+     "area": "92.60"
+    },
+    "attachments": [
+     {
+      "mark": "ח-8",
+      "desc": "חניה"
+     },
+     {
+      "mark": "מ-8",
+      "desc": "מחסן"
+     }
+    ],
+    "right_type": "ownership",
+    "lessor": null,
+    "lease_until": null,
+    "owners": [
+     {
+      "name": "מרים אלקבץ",
+      "id": "022458316",
+      "share": "בשלמות",
+      "quote": "מרים אלקבץ 022458316"
+     }
+    ],
+    "mortgages": [
+     {
+      "lender": "בנק המפרץ למשכנתאות בע\"מ (בדוי)",
+      "rank": "ראשונה",
+      "amount": "ללא הגבלת סכום",
+      "quote": "בנק המפרץ למשכנתאות בע\"מ (בדוי)"
+     }
+    ],
+    "warnings": [
+     {
+      "beneficiary": "תומר לוין",
+      "beneficiary_id": "305871442",
+      "date": "24/11/2026",
+      "quote": "תומר לוין 24/11/2026"
+     },
+     {
+      "beneficiary": "שני לוין",
+      "beneficiary_id": "306114930",
+      "date": "24/11/2026",
+      "quote": "שני לוין 24/11/2026"
+     }
+    ],
+    "liens": []
+   }
+  },
+  {
+   "file": "02_heskem_mecher.pdf",
+   "doc_type": "agreement",
+   "transcript": "",
+   "agreement": {
+    "signing_date": "30/11/2026",
+    "sellers": [
+     {
+      "name": "מרים אלקבץ",
+      "id": "022458316"
+     }
+    ],
+    "buyers": [
+     {
+      "name": "תומר לוין",
+      "id": "305871442"
+     },
+     {
+      "name": "שני לוין",
+      "id": "306114930"
+     }
+    ],
+    "property": {
+     "gush": "10419",
+     "helka": "77",
+     "tat": "8",
+     "area": "92.60"
+    },
+    "attachments": [
+     {
+      "mark": "ח-8",
+      "desc": "חניה"
+     },
+     {
+      "mark": "מ-8",
+      "desc": "מחסן"
+     }
+    ],
+    "ownership_claim": {
+     "text": "הדירה רשומה על שם המוכר בלשכת רישום המקרקעין בשלמות",
+     "claims_whole_by_listed_sellers": true,
+     "claims_equal_shares": false,
+     "claims_full_ownership_right": false
+    },
+    "heirs_listed": [],
+    "heirs_quote": null,
+    "declared_mortgages": [
+     {
+      "lender": "בנק המפרץ למשכנתאות בע\"מ (בדוי)",
+      "quote": "משכנתא בדרגה ראשונה לטובת בנק המפרץ למשכנתאות בע\"מ"
+     }
+    ],
+    "declares_no_other_encumbrances": {
+     "value": false,
+     "quote": null
+    },
+    "declares_no_warnings": {
+     "value": true,
+     "except_buyers": true,
+     "quote": "לא נרשמו על הדירה הערות אזהרה"
+    },
+    "declares_no_liens_or_pledges": {
+     "value": true,
+     "quote": "לא נרשמו על הדירה או על זכויות המוכר בה עיקולים, שעבודים או משכונות"
+    },
+    "mentions_rmi_consent": false,
+    "price": "1,980,000",
+    "price_quote": "1,980,000",
+    "payments": [
+     {
+      "amount": "198,000",
+      "due": "במעמד חתימת ההסכם",
+      "to_lender": false,
+      "quote": "198,000"
+     },
+     {
+      "amount": "450,000",
+      "due": "עד יום 30/12/2026",
+      "to_lender": true,
+      "quote": "450,000"
+     },
+     {
+      "amount": "1,332,000",
+      "due": "במועד מסירת החזקה",
+      "to_lender": false,
+      "quote": "1,332,000"
+     }
+    ]
+   }
+  },
+  {
+   "file": "03_michtav_kavanot_bank.pdf",
+   "doc_type": "bank_letter",
+   "transcript": "",
+   "bank_letter": {
+    "date": "25/11/2026",
+    "lender": "בנק המפרץ למשכנתאות (בדוי)",
+    "borrowers": [
+     "מרים אלקבס"
+    ],
+    "borrowers_quote": "לווים: מרים אלקבס",
+    "property": {
+     "gush": "10419",
+     "helka": "77",
+     "tat": "9"
+    },
+    "property_quote": "גוש 10419 חלקה 77 תת חלקה 9",
+    "balance": "412,000",
+    "balance_quote": "היתרה לסילוק ההלוואה נכון ליום מכתב זה הינה 412,000",
+    "valid_until": "25/12/2026",
+    "valid_quote": "מכתב זה בתוקף עד ליום 25/12/2026"
+   }
+  },
+  {
+   "file": "04_rasham_mashkonot.pdf",
+   "doc_type": "pledges",
+   "transcript": "",
+   "pledges": {
+    "search_date": "28/11/2026",
+    "searched_ids": [
+     "022458316"
+    ],
+    "items": []
+   }
+  }
+ ]
+}

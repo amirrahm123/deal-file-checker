@@ -1,0 +1,9 @@
+node_modules
+.next
+.env*.local
+next-env.d.ts
+*.tsbuildinfo
+# API key text files – never commit
+*api key*
+*api_key*
+*apikey*
